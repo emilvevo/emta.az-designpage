@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    min-height: 80px;
+}
+
+nav .brand {
+    font-size: 2rem;
+    padding: 0;
+    line-height: 0.9;
+    letter-spacing: 0.3rem;
+    font-weight: bolder;
+}
+
+#add {
+    z-index: 5;
+    cursor: pointer;
+    bottom: 5px;
+    right: 15px;
+    font-size: 3rem;
+    border: none;
+    background: transparent;
+    color: green;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+input,
+select {
+    border: 2px solid #555;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
